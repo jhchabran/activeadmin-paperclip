@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "activeadmin-paperclip"
   gem.homepage = "http://github.com/amoslanka/activeadmin-paperclip"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Adds Paperclip support to ActiveAdmin}
+  gem.description = %Q{Adds Paperclip support to ActiveAdmin}
   gem.email = "amoslanka@gmail.com"
   gem.authors = ["Amos Lanka"]
   # dependencies defined in Gemfile
