@@ -23,8 +23,9 @@ module ActiveAdmin
         add_class "paperclip"
         super title, attributes 
         
-        attachment = (@resource.respond_to? @attachment_name.to_sym) ? @resource.send(@attachment_name.to_sym) : nil
-        image_table_for attachment, attributes
+        # attachment = (@resource.respond_to? @attachment_name.to_sym) ? @resource.send(@attachment_name.to_sym) : nil
+        # image_table_for attachment, attributes
+        image_table_for @resource, @attachment_name, attributes
       end
       
     end

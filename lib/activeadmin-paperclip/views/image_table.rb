@@ -6,6 +6,9 @@ module ActiveAdmin
       def build(record, attachment_name, *styles)
         
         raise "Record cannot be nil." if record.nil?
+        
+        # puts "Record: #{record}, Attachment_Name: #{attachment_name}"
+        
         @attachment = attachment = (record.respond_to? attachment_name.to_sym) ? record.send(attachment_name.to_sym) : nil
 
         @style_list = !@attachment.nil? ? @attachment.styles.collect do |style| style.first end : []
