@@ -1,10 +1,3 @@
-module ActiveAdmin
-  module Paperclip
-    module Views
-
-      # Loads all the classes in views/*.rb
-      Dir[File.expand_path('../views', __FILE__) + "/**/*.rb"].sort.each{ |f| require f }
-
-    end
-  end
-end
+require 'activeadmin-paperclip/views/attachment_panel'
+require 'activeadmin-paperclip/views/image_sidebar'
+require 'activeadmin-paperclip/views/image_table'

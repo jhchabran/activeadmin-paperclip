@@ -1,9 +1,4 @@
 require 'activeadmin'
+require "activeadmin-paperclip/version"
+require "activeadmin-paperclip/views"
 
-module ActiveAdmin
-  module Paperclip
-
-    require 'activeadmin-paperclip/views'
-
-  end
-end
