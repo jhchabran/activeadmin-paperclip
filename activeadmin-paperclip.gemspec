@@ -21,6 +21,4 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency(%q<activeadmin>, [">= 0"])
   s.add_development_dependency(%q<shoulda>, [">= 0"])
   s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
-  s.add_development_dependency(%q<jeweler>, ["~> 1.6.0"])
-  s.add_development_dependency(%q<simplecov>, [">= 0"])
 end
